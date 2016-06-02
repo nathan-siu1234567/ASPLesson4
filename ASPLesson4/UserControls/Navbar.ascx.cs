@@ -25,6 +25,16 @@ namespace ASPLesson4
                 case "Contact":
                     contact.Attributes.Add("class", "active");
                     break;
+                case "students":
+                    students.Attributes.Add("class", "active");
+                    break;
+                case "courses":
+                    courses.Attributes.Add("class", "active");
+                    break;
+                case "departments":
+                    departments.Attributes.Add("class", "active");
+                    break;
+
             }
         }
     }

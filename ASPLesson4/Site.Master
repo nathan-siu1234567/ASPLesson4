@@ -25,6 +25,9 @@
         </asp:ContentPlaceHolder>
     </div>
     </form>
+    <footer class="'navbar navbar-fixed-bottom bg-info">
+        <p>&copy;Contoso University 2016</p>
+    </footer>
     <!--JavaScript Section-->
     <script src="Scripts/jquery-2.2.3.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
