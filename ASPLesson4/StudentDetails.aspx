@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-offset-3 col-md-6">
-                <h1>student Details</h1>
+                <h1>Student Details</h1>
                 <h5>All Fields are Required</h5>
                 <br />
                 <div class="form-group">
@@ -21,7 +21,7 @@
                 </div>
                 <div class="text-right">
                     <asp:Button Text="Cancel" ID="CancelButton" CssClass="btn btn-warning btn-lg" UseSubmitBehavior="false" CausesValidation="false" runat="server" OnClick="CancelButton_Click" />
-                     <asp:Button Text="Cancel" ID="SubmitButton" CssClass="btn btn-primary btn-lg" CausesValidation="true" runat="server" OnClick="SubmitButton_Click" />
+                     <asp:Button Text="Submit" ID="SubmitButton" CssClass="btn btn-primary btn-lg" CausesValidation="true" runat="server" OnClick="SubmitButton_Click" />
                 </div>
             </div>
         </div>
